@@ -1,7 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-import logo from '../public/logo.png';
+import logo from '../public/images/logo.png';
 
 type LinkDetails = {
   href: string;
@@ -13,6 +13,7 @@ const links: LinkDetails[] = [
   { href: '/about', label: 'About' },
   { href: '/how', label: 'How It Works' },
   { href: '/contact', label: 'Contact' },
+  { href: '/blog', label: 'Blog' },
   {
     href: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
     label: 'Order',
@@ -38,7 +39,7 @@ const Navbar = () => {
         <div className="flex items-center md:hidden">
           <button
             onClick={toggleMenu}
-            className="px-3 py-2 font-semibold text-accent hover:bg-blue-700"
+            className="px-3 py-2 font-serif text-accent hover:bg-blue-700"
           >
             Menu
           </button>
@@ -51,13 +52,13 @@ const Navbar = () => {
           <div className="container mx-auto py-8">
             <button
               onClick={toggleMenu}
-              className="float-right px-3 py-2 font-semibold text-accent bg-red-500 rounded-full hover:bg-red-700"
+              className="float-right px-3 py-2 font-serif text-accent bg-red-500 rounded-full hover:bg-red-700"
             >
               Close
             </button>
             <Link
               href="/"
-              className="block px-3 py-2 font-semibold text-accent md:ml-2"
+              className="block px-3 py-2 font-serif text-accent md:ml-2"
             >
               Home
             </Link>
@@ -65,7 +66,7 @@ const Navbar = () => {
               <Link
                 key={href}
                 href={href}
-                className="block px-3 py-2 font-semibold text-accent md:ml-2"
+                className="block px-3 py-2 font-serif text-accent md:ml-2"
               >
                 {label}
               </Link>
@@ -77,7 +78,7 @@ const Navbar = () => {
             <Link
               key={href}
               href={href}
-              className="px-3 py-2 font-semibold text-accent"
+              className="px-3 py-2 font-serif text-accent"
             >
               {label}
             </Link>

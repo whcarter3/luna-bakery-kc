@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import Image from 'next/image';
 import Layout from '../components/layout';
-import mainImage from '../public/homepage-cover.jpeg';
+import mainImage from '../public/images/homepage-cover.jpeg';
 
 export default function Home() {
   return (
