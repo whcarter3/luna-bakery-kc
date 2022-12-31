@@ -4,6 +4,6 @@
 
 
 html, body {
-  background-color: lightgray;
+  background-color: theme("colors.primary");
   color: black;
 }

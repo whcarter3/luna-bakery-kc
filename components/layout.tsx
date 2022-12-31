@@ -11,7 +11,7 @@ const Layout = ({ children, ...props }: LayoutProps) => {
     <>
       <Navbar />
       {/* layout has px-2 so it aligns with the navbar */}
-      <main className="container mx-auto px-2 py-4 min-h-screen">
+      <main className="container mx-auto px-2 py-4 min-h-screen bg-primary">
         {children}
       </main>
       <Footer />

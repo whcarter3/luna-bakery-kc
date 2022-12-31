@@ -3,8 +3,8 @@ const year = new Date().getFullYear();
 
 const Footer = () => {
   return (
-    <footer>
-      <p className="w-100 text-center">&copy;Luna Bakery KC {year}</p>
+    <footer className="p-4">
+      <p className="w-100 text-center">Made with &#9825; in {year}</p>
     </footer>
   );
 };

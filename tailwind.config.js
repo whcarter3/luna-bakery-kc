@@ -11,7 +11,18 @@ module.exports = {
       serif: ['var(--font-playfair-display)', ...fontFamily.serif],
       sans: ['var(--font-inter)', ...fontFamily.sans],
     },
-    extend: {},
+    extend: {
+      colors: {
+        //prettier-ignore
+        'primary': '#2a3b52',
+        secondary: '#91b1b2',
+        accent: '#eec9b6',
+      },
+    },
   },
   plugins: [],
 };
+
+// 2a3b52: blue color - primary
+// 91b1b2: light blue color - secondary
+// eec9b6: pink color  - accent

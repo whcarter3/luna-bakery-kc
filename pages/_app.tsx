@@ -19,7 +19,7 @@ export default function App({ Component, pageProps }: AppProps) {
   return (
     <main
       // This is how you use the imported fonts
-      className={`${playfair.variable} ${inter.variable} font-sans`}
+      className={`${playfair.variable} ${inter.variable} font-sans text-white bg-primary mx-auto max-w-7xl`}
     >
       <Component {...pageProps} />
     </main>
