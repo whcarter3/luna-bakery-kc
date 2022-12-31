@@ -53,6 +53,11 @@ const PostPage = ({ source, frontMatter }: PostPageProps) => {
 };
 
 export const getStaticProps: GetStaticProps = async ({ params }) => {
+  if (!params) {
+    return {
+      notFound: true,
+    };
+  }
   const postFilePath = path.join(POSTS_PATH, `${params.slug}.mdx`);
   const source = fs.readFileSync(postFilePath);
 
