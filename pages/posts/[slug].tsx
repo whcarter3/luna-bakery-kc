@@ -15,6 +15,7 @@ import rehypeSlug from 'rehype-slug';
 import remarkGfm from 'remark-gfm';
 import { PostType } from '../../types/post';
 import { postFilePaths, POSTS_PATH } from '../../utils/mdxUtils';
+import Layout from '../../components/layout';
 
 const components = {
   Head,
@@ -39,15 +40,23 @@ const PostPage = ({ source, frontMatter }: PostPageProps) => {
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <article>
-        <h1 className="mb-3 font-serif text-3xl">
-          {frontMatter.title}
-        </h1>
-        <p className="mb-10 text-sm">
-          {format(parseISO(frontMatter.date), 'MMMM dd, yyyy')}
-        </p>
-        <MDXRemote {...source} components={components} />
-      </article>
+      <Layout>
+        <article>
+          <h1 className="mb-3 font-serif text-3xl">
+            {frontMatter.title}
+          </h1>
+          <p className="mb-10 text-sm">
+            {format(parseISO(frontMatter.date), 'MMMM dd, yyyy')}
+          </p>
+          <Image
+            alt={frontMatter.slug}
+            src={frontMatter.image}
+            height={200}
+            width={200}
+          ></Image>
+          <MDXRemote {...source} components={components} />
+        </article>
+      </Layout>
     </>
   );
 };

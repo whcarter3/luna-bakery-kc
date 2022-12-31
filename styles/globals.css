@@ -7,3 +7,28 @@ html, body {
   background-color: theme("colors.primary");
   color: black;
 }
+
+h1 {
+  font-family: theme(fontFamily.serif);
+  font-size: theme(fontSize.2xl);
+}
+
+h2 {
+  font-family: theme(fontFamily.serif);
+  font-size: theme(fontSize.xl);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-bottom: theme(spacing[1]);
+}
+ol {
+  list-style-type: decimal;
+}
+
+ul {
+  list-style-type: initial;
+}
+
+ol, ul {
+  padding-left: 1.2rem;
+}
