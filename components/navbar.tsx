@@ -29,16 +29,16 @@ const Navbar = () => {
 
   return (
     <nav className="p-2">
-      <div className="container mx-auto flex items-center justify-between px-2 py-3 sm:px-0">
+      <div className="container mx-auto flex items-center justify-between px-2 py-3 md:px-0">
         <div className="flex items-center">
           <Link href="/">
             <Image src={logo} width={300} alt="Luna Bakery Logo" />
           </Link>
         </div>
-        <div className="flex items-center sm:hidden">
+        <div className="flex items-center md:hidden">
           <button
             onClick={toggleMenu}
-            className="px-3 py-2 font-semibold text-white hover:bg-blue-700"
+            className="px-3 py-2 font-semibold text-accent hover:bg-blue-700"
           >
             Menu
           </button>
@@ -51,13 +51,13 @@ const Navbar = () => {
           <div className="container mx-auto py-8">
             <button
               onClick={toggleMenu}
-              className="float-right px-3 py-2 font-semibold text-white bg-red-500 rounded-full hover:bg-red-700"
+              className="float-right px-3 py-2 font-semibold text-accent bg-red-500 rounded-full hover:bg-red-700"
             >
               Close
             </button>
             <Link
               href="/"
-              className="block px-3 py-2 font-semibold text-white sm:ml-2"
+              className="block px-3 py-2 font-semibold text-accent md:ml-2"
             >
               Home
             </Link>
@@ -65,19 +65,19 @@ const Navbar = () => {
               <Link
                 key={href}
                 href={href}
-                className="block px-3 py-2 font-semibold text-white sm:ml-2"
+                className="block px-3 py-2 font-semibold text-accent md:ml-2"
               >
                 {label}
               </Link>
             ))}
           </div>
         </div>
-        <div className="hidden sm:flex items-center">
+        <div className="hidden md:flex items-center">
           {links.map(({ href, label }) => (
             <Link
               key={href}
               href={href}
-              className="px-3 py-2 font-semibold text-white"
+              className="px-3 py-2 font-semibold text-accent"
             >
               {label}
             </Link>
