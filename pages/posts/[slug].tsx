@@ -50,11 +50,7 @@ const PostPage = ({ source, frontMatter }: PostPageProps) => {
           </p>
           <Image
             alt={frontMatter.slug}
-            src={
-              frontMatter.image
-                ? frontMatter.image
-                : '/images/nextjs.png'
-            }
+            src={frontMatter.image}
             height={200}
             width={200}
           ></Image>
