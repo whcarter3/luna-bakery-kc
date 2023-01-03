@@ -11,7 +11,7 @@ type LinkDetails = {
 
 //This is our collection of links that link to internal and external pages
 const links: LinkDetails[] = [
-  { href: '/about', label: 'About' },
+  { href: '#footer', label: 'Footer' },
   { href: '/how', label: 'How It Works' },
   { href: '/contact', label: 'Contact' },
   {

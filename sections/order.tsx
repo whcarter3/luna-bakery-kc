@@ -1,4 +1,4 @@
-import Button from '../components/button';
+import Link from 'next/link';
 
 const Order = (): JSX.Element => {
   return (
@@ -7,12 +7,13 @@ const Order = (): JSX.Element => {
         An at-home micro sourdough bakery
       </h1>
       <div className="flex justify-center">
-        <a
+        <Link
           href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
           className="button success"
+          target={'_blank'}
         >
           ORDER
-        </a>
+        </Link>
       </div>
     </div>
   );

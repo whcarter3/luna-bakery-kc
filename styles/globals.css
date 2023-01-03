@@ -6,12 +6,14 @@
 @layer base {
   html, body {
     background-color: theme("colors.primary");
-    @apply transition-all;
+    /* important is needed to override user agents enforcing their own specs */
+    scroll-behavior: smooth!important;
   }
   h1 {
     color: theme("colors.accent");
     font-family: theme("fontFamily.serif");
     font-size: 40px;
+    @apply mb-4
   }
   @media screen and (max-width: 768px) {
     h1 {
@@ -21,26 +23,27 @@
   }
 }
 
+@layer components {
+  .button {
+    border-radius: 7px;
+    background: transparent;
+    border: 2px solid theme("colors.accent");
+    font-family: theme("fontFamily.serif");
+    color: theme("colors.accent");
+    @apply px-3;
+    @apply py-2;
+  }
 
-.button {
-  border-radius: 7px;
-  background: transparent;
-  border: 2px solid theme("colors.accent");
-  font-family: theme("fontFamily.serif");
-  color: theme("colors.accent");
-  @apply px-3;
-  @apply py-2;
-}
+  .button.success {
+    background: theme("colors.success");
+    color: white;
+    border: 2px solid theme("colors.success");
+    @apply px-6;
+    @apply py-4;
+    @apply text-2xl;
+  }
 
-.button.success {
-  background: theme("colors.success");
-  color: white;
-  border: 2px solid theme("colors.success");
-  @apply px-6;
-  @apply py-4;
-  @apply text-2xl;
-}
-
-.hero {
-  aspect-ratio: 21/9;
+  .section {
+    min-height: 25vh;
+  }
 }
