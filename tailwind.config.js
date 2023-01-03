@@ -8,7 +8,7 @@ module.exports = {
   ],
   theme: {
     fontFamily: {
-      serif: ['var(--font-playfair-display)', ...fontFamily.serif],
+      serif: ['var(--font-abril-fatface)', ...fontFamily.serif],
       sans: ['var(--font-inter)', ...fontFamily.sans],
     },
     extend: {

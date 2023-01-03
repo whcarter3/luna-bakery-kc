@@ -7,3 +7,9 @@ html, body {
   background-color: theme("colors.primary");
   color: black;
 }
+
+h1 {
+  color: theme("colors.accent");
+  font-family: theme("fontFamily.serif");
+  font-size: 40px;
+}
