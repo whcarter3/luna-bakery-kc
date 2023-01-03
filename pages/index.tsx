@@ -1,6 +1,8 @@
 import Head from 'next/head';
-import Layout from '../components/layout';
-import mainImage from '../public/homepage-cover.jpeg';
+import Navbar from '../components/navbar';
+import Hero from '../sections/hero';
+import Order from '../sections/order';
+import Footer from '../components/footer';
 
 export default function Home() {
   return (
@@ -18,10 +20,11 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <Layout layoutImg={mainImage} imgAlt="Luna Bakery KC">
-        <h1>An at-home micro sourdough bakery</h1>
-        <p>this is a sans serif font</p>
-      </Layout>
+      {/* main page content and compontents */}
+      <Navbar />
+      <Hero />
+      <Order />
+      <Footer />
     </>
   );
 }

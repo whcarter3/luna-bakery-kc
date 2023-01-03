@@ -17,6 +17,7 @@ module.exports = {
         'primary': '#2a3b52',
         secondary: '#91b1b2',
         accent: '#eec9b6',
+        success: '#8E9E49',
       },
     },
   },
@@ -26,3 +27,4 @@ module.exports = {
 // 2a3b52: blue color - primary
 // 91b1b2: light blue color - secondary
 // eec9b6: pink color  - accent
+// 8E9E49: green color - success

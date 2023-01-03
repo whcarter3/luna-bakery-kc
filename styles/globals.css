@@ -3,13 +3,44 @@
 @tailwind utilities;
 
 
-html, body {
-  background-color: theme("colors.primary");
-  color: black;
+@layer base {
+  html, body {
+    background-color: theme("colors.primary");
+    @apply transition-all;
+  }
+  h1 {
+    color: theme("colors.accent");
+    font-family: theme("fontFamily.serif");
+    font-size: 40px;
+  }
+  @media screen and (max-width: 768px) {
+    h1 {
+      font-size: 30px;
+      line-height: 1.2;
+    }
+  }
 }
 
-h1 {
-  color: theme("colors.accent");
+
+.button {
+  border-radius: 7px;
+  background: transparent;
+  border: 2px solid theme("colors.accent");
   font-family: theme("fontFamily.serif");
-  font-size: 40px;
+  color: theme("colors.accent");
+  @apply px-3;
+  @apply py-2;
+}
+
+.button.success {
+  background: theme("colors.success");
+  color: white;
+  border: 2px solid theme("colors.success");
+  @apply px-6;
+  @apply py-4;
+  @apply text-2xl;
+}
+
+.hero {
+  aspect-ratio: 21/9;
 }
