@@ -10,7 +10,6 @@
     scroll-behavior: smooth!important;
   }
   h1 {
-    color: theme("colors.accent");
     font-family: theme("fontFamily.serif");
     font-size: 40px;
     @apply mb-4
@@ -25,7 +24,7 @@
 
 @layer components {
   .button {
-    border-radius: 7px;
+    @apply rounded-lg;
     background: transparent;
     border: 2px solid theme("colors.accent");
     font-family: theme("fontFamily.serif");
@@ -44,6 +43,12 @@
   }
 
   .section {
-    min-height: 25vh;
+    min-height: 20vh;
+    @apply mx-auto;
+    @apply px-2;
+    @apply py-8;
+    @apply flex;
+    @apply flex-col;
+    @apply justify-center;
   }
 }

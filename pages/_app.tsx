@@ -19,7 +19,7 @@ export default function App({ Component, pageProps }: AppProps) {
   return (
     <main
       // This is how you use the imported fonts
-      className={`${abril.variable} ${inter.variable} font-sans text-white bg-primary mx-auto`}
+      className={`${abril.variable} ${inter.variable} font-sans text-white bg-primary mx-auto mt-[115px]`}
     >
       <Component {...pageProps} />
     </main>

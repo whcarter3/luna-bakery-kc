@@ -3,7 +3,7 @@ import heroImage from '../public/images/homepage-cover.jpeg';
 
 const Hero = () => {
   return (
-    <div className="w-full relative aspect-[21/9]">
+    <div className="w-full relative aspect-[3/2] md:aspect-[21/8]">
       <Image
         src={heroImage}
         alt="Luna Bakery KC"

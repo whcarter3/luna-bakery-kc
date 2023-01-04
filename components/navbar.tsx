@@ -11,13 +11,13 @@ type LinkDetails = {
 
 //This is our collection of links that link to internal and external pages
 const links: LinkDetails[] = [
-  { href: '#footer', label: 'Footer' },
-  { href: '/how', label: 'How It Works' },
-  { href: '/contact', label: 'Contact' },
   {
-    href: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+    href: '#order',
     label: 'Order',
   },
+  { href: '#about', label: 'About' },
+  { href: '#meetMe', label: 'Meet Me' },
+  { href: '#contact', label: 'Contact' },
 ];
 
 //this is our navbar component
@@ -29,7 +29,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="p-2">
+    <nav className="p-2 fixed top-0 left-0 z-10 bg-primary w-full">
       <div className="container mx-auto flex items-center justify-between px-2 py-3 md:px-0">
         <div className="flex items-center">
           <Logo
@@ -72,7 +72,7 @@ const Navbar = () => {
               <Link
                 key={href}
                 href={href}
-                className="block px-3 py-2 font-serif text-accent text-2xl md:ml-2"
+                className="block px-3 py-2 font-serif text-white text-2xl md:ml-2"
               >
                 {label}
               </Link>
@@ -84,7 +84,7 @@ const Navbar = () => {
             <Link
               key={href}
               href={href}
-              className="px-3 py-2 font-serif text-accent"
+              className="px-3 py-2 font-serif text-2xl text-white"
             >
               {label}
             </Link>

@@ -1,22 +1,31 @@
-interface LayoutProps {
+import classNames from 'classnames';
+interface SectionProps {
   children: React.ReactNode;
+  id: string;
   alternate?: boolean;
+  className?: string;
 }
 
 // This is a layout component that wraps around all the pages
-const Layout = ({ alternate, children }: LayoutProps) => {
+const Section = ({
+  alternate,
+  className,
+  children,
+  id,
+}: SectionProps) => {
   return (
-    <>
-      {/* section has px-2 so it aligns with the navbar */}
-      <div
-        className={`container section mx-auto px-2 py-4 min-h- ${
-          alternate ? 'bg-accent' : 'bg-primary'
-        }`}
-      >
+    <div
+      className={classNames(
+        'w-screen',
+        alternate ? 'bg-accent text-primary' : 'bg-primary'
+      )}
+      id={id}
+    >
+      <div className={`container section ${className} px-5 md:px3`}>
         {children}
       </div>
-    </>
+    </div>
   );
 };
 
-export default Layout;
+export default Section;
