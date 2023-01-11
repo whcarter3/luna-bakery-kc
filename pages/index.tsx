@@ -3,6 +3,8 @@ import Navbar from '../components/navbar';
 import Hero from '../sections/hero';
 import Order from '../sections/order';
 import About from '../sections/about';
+import Contact from '../sections/contact';
+import MeetMe from '../sections/meetMe';
 import Footer from '../components/footer';
 
 export default function Home() {
@@ -26,6 +28,8 @@ export default function Home() {
       <Hero />
       <Order />
       <About />
+      <MeetMe />
+      <Contact />
       <Footer />
     </>
   );
