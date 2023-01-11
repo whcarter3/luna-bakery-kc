@@ -16,7 +16,7 @@ const Section = ({
   return (
     <div
       className={classNames(
-        'w-screen',
+        'w-full',
         alternate ? 'bg-accent text-primary' : 'bg-primary'
       )}
       id={id}

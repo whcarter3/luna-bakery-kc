@@ -30,8 +30,8 @@ const Navbar = () => {
 
   return (
     <nav className="p-2 fixed top-0 left-0 z-10 bg-primary w-full">
-      <div className="container mx-auto flex items-center justify-between px-2 py-3 md:px-0">
-        <div className="flex items-center">
+      <div className="container mx-auto flex flex-wrap md:flex-nowrap items-center justify-between px-2 py-3 md:px-0">
+        <div className="flex items-center justify-center md:justify-start w-full md:w-auto">
           <Logo
             img={{
               src: logoSrc,
@@ -42,44 +42,7 @@ const Navbar = () => {
             href="/"
           />
         </div>
-        <div className="flex items-center md:hidden">
-          <Button onClick={toggleMenu}>Menu</Button>
-        </div>
-        <div
-          className={`${
-            isMenuOpen ? 'block' : 'hidden'
-          } fixed top-0 left-0 w-full h-full z-50 bg-primary`}
-        >
-          <div className="container mx-auto py-2 relative h-full">
-            <Button
-              onClick={toggleMenu}
-              className="top-4 right-4 absolute"
-            >
-              Close
-            </Button>
-            <div className="w-full flex justify-center absolute bottom-4">
-              <Logo
-                img={{
-                  src: logoSrc,
-                  width: 300,
-                  height: 100,
-                  alt: 'Luna Bakery KC',
-                }}
-                href="/"
-              />
-            </div>
-            {links.map(({ href, label }) => (
-              <Link
-                key={href}
-                href={href}
-                className="block px-3 py-2 font-serif text-white text-2xl md:ml-2"
-              >
-                {label}
-              </Link>
-            ))}
-          </div>
-        </div>
-        <div className="hidden md:flex items-center">
+        <div className="flex items-center justify-center md:justify-start w-full md:w-auto">
           {links.map(({ href, label }) => (
             <Link
               key={href}

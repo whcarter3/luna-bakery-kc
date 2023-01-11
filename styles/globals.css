@@ -46,7 +46,7 @@
     min-height: 20vh;
     @apply mx-auto;
     @apply px-2;
-    @apply py-8;
+    @apply py-14;
     @apply flex;
     @apply flex-col;
     @apply justify-center;
