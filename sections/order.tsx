@@ -49,7 +49,7 @@ const Order = (): JSX.Element => {
 
   return (
     <Section id="order" className="items-center">
-      <h1>A sourdough micro-bakery delivering items weekly</h1>
+      <h1>A home sourdough microbakery serving Kansas City</h1>
       <Link
         href="https://shop.castiron.me/luna-bakery"
         className="button success mt-2 mb-6"

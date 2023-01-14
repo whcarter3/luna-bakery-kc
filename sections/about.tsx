@@ -4,25 +4,23 @@ import type { CardProps } from '../components/card';
 
 const aboutCards: CardProps[] = [
   {
-    title: 'Ingredients',
-    text: `Buster's in what we like to call a light to no coma. In laymans terms, it might be considered a very heavy nap. In prison, you just have to close your eyes and take it, but here you have to close your eyes and give it. No one was making fun of Andy Griffith. I can't emphasize that enough. No, I was ashamed to be SEEN with you. I like being with you. I believe you will find the dessert to be both engrossing and high-grossing! So we don't get dessert? Heart attack never stopped old big bear!`,
-  },
-  {
-    title: "How It's Made",
-    text: `Oh Leela! You're the only person I could turn to; you're the only person who ever loved me. Have you ever tried just turning off the TV, sitting down with your children, and hitting them? I was all of history's great robot actors - Acting Unit 0.8; Thespomat; David Duchovny! Fry! Stay back! He's too powerful! And why did 'I' have to take a cab? `,
-  },
-  {
     title: 'Why Sourdough?',
-    text: `I'm baby leggings farm-to-table occupy, literally shaman 3 wolf moon enamel pin chillwave yr. Jianbing tumblr hexagon, edison bulb post-ironic bespoke chicharrones bodega boys celiac. Seitan offal vinyl, kinfolk gentrify fit taiyaki austin helvetica. Echo park fixie poke bruh blue bottle austin.`,
+    text: `Sourdough is the oldest bread method in the world! The fermentation process creates natural, wild yeasts that adapt to the air and environment around them. As a result, all sourdough starters are unique in bacterial content, and the resulting yeast naturally leavens the bread. Sourdough naturally  has a lower glycemic load, a lower gluten content, and higher probiotic content than instant yeast bread.`,
+  },
+  {
+    title: 'Ingredients',
+    text: `All Luna sourdough loaves are made with a mixture of high protein bread flour, whole wheat flour, and rye flour. We source organic, non-gmo grains to maximize the benefits and make all loaves the old fashioned way with flour, kosher salt, and water. That’s it. There are no additives, preservatives, or hidden ingredients, just 3 ingredients!`,
+  },
+  {
+    title: 'The Process',
+    text: `All loaves are made from a naturally leavened sourdough starter that is maintained on a twice daily basis. They are hand mixed in small batches in our home kitchen to ensure each loaf gets the time and attention it needs over the 18-24 hour fermentation period. The resulting loaf stays fresh for an extended period of time and has a unique, delicious, hearty taste.`,
   },
 ];
 
 const About = (): JSX.Element => {
   return (
     <Section id="about" className="items-start max-w-5xl" alternate>
-      <h1 className="text-6xl font-bold text-left">
-        The Luna Process
-      </h1>
+      <h1 className="font-bold text-left">The Luna Sourdough Way</h1>
       {/* <p className="text-2xl">This is the about section</p> */}
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4 w-full mt-8">
         {aboutCards.map((card) => (

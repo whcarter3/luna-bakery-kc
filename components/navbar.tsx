@@ -12,7 +12,7 @@ type LinkDetails = {
 //This is our collection of links that link to internal and external pages
 const links: LinkDetails[] = [
   {
-    href: '#order',
+    href: 'https://shop.castiron.me/luna-bakery',
     label: 'Order',
   },
   { href: '#about', label: 'About' },
@@ -22,15 +22,9 @@ const links: LinkDetails[] = [
 
 //this is our navbar component
 const Navbar = () => {
-  const [isMenuOpen, setIsMenuOpen] = React.useState(false);
-
-  const toggleMenu = () => {
-    setIsMenuOpen(!isMenuOpen);
-  };
-
   return (
-    <nav className="p-2 fixed top-0 left-0 z-10 bg-primary w-full">
-      <div className="container mx-auto flex flex-wrap md:flex-nowrap items-center justify-between px-2 py-3 md:px-0">
+    <nav className="p-0 md:p-2 fixed top-0 left-0 z-10 bg-primary w-full shadow-lg">
+      <div className="mx-auto flex flex-wrap md:flex-nowrap items-center justify-between px-0 py-0 md:py-3">
         <div className="flex items-center justify-center md:justify-start w-full md:w-auto">
           <Logo
             img={{
@@ -42,12 +36,13 @@ const Navbar = () => {
             href="/"
           />
         </div>
-        <div className="flex items-center justify-center md:justify-start w-full md:w-auto">
+        <div className="flex items-center justify-center md:justify-start w-full md:w-auto bg-accent md:bg-transparent">
           {links.map(({ href, label }) => (
             <Link
               key={href}
               href={href}
-              className="px-3 py-2 font-serif text-2xl text-white"
+              target={href.includes('http') ? '_blank' : undefined}
+              className="px-3 py-2 font-serif text-2xl text-primary md:text-white"
             >
               {label}
             </Link>
