@@ -13,38 +13,23 @@ interface MyError extends Error {
   message: string;
 }
 
+sendgrid.setApiKey(process.env.SENDGRID_API_KEY!);
+
 async function sendEmail(req: NextApiRequest, res: NextApiResponse) {
   try {
-    sendgrid.setApiKey(process.env.SENDGRID_API_KEY!);
     const { fullname, email, subject, message }: Email = req.body;
-    await sendgrid.send({
-      to: 'info@lunabakerykc.com',
-      from: 'info@lunabakerykc.com',
-      subject: `New message from ${subject}`,
-      html: `<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-      <html lang="en">
-      <head>
-        <meta charset="utf-8">
-
-        <title>The HTML5 Herald</title>
-        <meta name="description" content="The HTML5 Herald">
-        <meta name="author" content="SitePoint">
-      <meta http-equiv="Content-Type" content="text/html charset=UTF-8" />
-
-      </head>
-
-      <body>
-        <div class="container" style="margin-left: 20px;margin-right: 20px;">
-        <h3>You've got a new mail from ${fullname}, their email is: ✉️${email} </h3>
-        <div style="font-size: 16px;">
-        <p>Message:</p>
-        <p>${message}</p>
-        <br>
-        </div>
-        </div>
-      </body>
-      </html>`,
-    });
+    const msg = {
+      to: process.env.SENDGRID_TO_EMAIL!,
+      from: process.env.SENDGRID_FROM_EMAIL!,
+      subject: `New message from Luna Bakery Website:  ${subject}`,
+      html: `
+        <p><strong>Full Name:</strong> ${fullname}</p>
+        <p><strong>Email:</strong> ${email}</p>
+        <p><strong>Subject:</strong> ${subject}</p>
+        <p><strong>Message:</strong> ${message}</p>
+      `,
+    };
+    await sendgrid.send(msg);
   } catch (error: unknown) {
     console.error(error);
     const myError = error as MyError;

@@ -94,7 +94,7 @@ export default function Form(): JSX.Element {
   return (
     <form
       onSubmit={handleSubmit}
-      className="w-full md:min-w-[500px] rounded-lg shadow-xl flex flex-col px-8 py-8 bg-white text-primary"
+      className="w-full md:w-auto md:min-w-[700px] rounded-lg shadow-xl flex flex-col px-8 py-8 bg-white text-primary"
     >
       <h1 className="text-2xl font-bold dark:text-primary">
         Send a message

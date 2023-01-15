@@ -5,11 +5,13 @@ import { DateTime } from 'luxon';
  *
  * @param {number} targetDay - The day of the week to return. A number from 1 to 7, where 1 represents Monday, 2 represents Tuesday, etc.
  * @param {boolean} addWeek - Whether to add a week to the result. If true, the result will be the closest occurrence of the specified day of the week to the current date and time at midnight in the next week. If false, the result will be the closest occurrence of the specified day of the week to the current date and time at midnight in this week.
+ * @param {boolean} iso - Whether to return the result as a string in the ISO 8601 format. If true, the result will be returned as a string in the format "YYYY-MM-DDTHH:mm:ssZ". If false, the result will be returned as a string in the format "yyyy-MM-dd'T'HH:mm:ssZZ".
  * @returns {string} - A string representing the closest occurrence of the specified day of the week to the current date and time at midnight in the format "YYYY-MM-DDTHH:mm:ssZ".
  */
 export function getClosestDay(
   targetDay: number,
-  addWeek?: boolean
+  addWeek?: boolean,
+  iso?: boolean
 ): string {
   // Get the current date and time
   const now = DateTime.local();
@@ -36,5 +38,5 @@ export function getClosestDay(
   const midnight = closestTargetDay.startOf('day');
 
   // Return the result as a string in the format "YYYY-MM-DDTHH:mm:ssZ"
-  return midnight.toFormat('MM-dd-yyyy');
+  return iso ? midnight.toISO() : midnight.toFormat('MM-dd-yyyy');
 }
