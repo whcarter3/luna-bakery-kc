@@ -20,8 +20,7 @@ const aboutCards: CardProps[] = [
 const About = (): JSX.Element => {
   return (
     <Section id="about" className="items-start max-w-5xl" alternate>
-      <h1 className="font-bold text-left">The Luna Sourdough Way</h1>
-      {/* <p className="text-2xl">This is the about section</p> */}
+      <h1 className="font-bold text-left">About Luna Sourdough</h1>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4 w-full mt-8">
         {aboutCards.map((card) => (
           <Card

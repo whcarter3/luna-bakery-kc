@@ -42,7 +42,7 @@ const Navbar = () => {
               key={href}
               href={href}
               target={href.includes('http') ? '_blank' : undefined}
-              className="px-3 py-2 font-serif text-2xl text-primary md:text-white"
+              className="px-3 py-2 font-serif text-xl md:text-2xl text-primary md:text-white"
             >
               {label}
             </Link>
