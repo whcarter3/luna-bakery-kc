@@ -31,8 +31,6 @@ async function sendEmail(req: NextApiRequest, res: NextApiResponse) {
         <meta name="author" content="SitePoint">
       <meta http-equiv="Content-Type" content="text/html charset=UTF-8" />
 
-        <link rel="stylesheet" href="css/styles.css?v=1.0">
-
       </head>
 
       <body>
