@@ -46,10 +46,11 @@ async function sendEmail(req: NextApiRequest, res: NextApiResponse) {
       </html>`,
     });
   } catch (error: unknown) {
-    // console.error(error);
+    console.error(error);
+    const myError = error as MyError;
     return res
-      .status(error.statusCode || 500)
-      .json({ error: error.message });
+      .status(myError.statusCode || 500)
+      .json({ error: myError.message });
   }
 
   res.status(200).json({ error: '' });
