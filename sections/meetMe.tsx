@@ -7,7 +7,7 @@ const MeetMe = (): JSX.Element => {
       <div className="grid grid-cols-1 lg:grid-cols-2 lg:gap-2 rounded-lg bg-white text-primary lg:max-h-[700px]">
         <div className="aspect-[1.5/1] lg:aspect-[1/1.5] relative">
           <Image
-            src="/images/LaurenMiller.jpg"
+            src="/images/lunaLaurenMiller.jpeg"
             alt="Luna Bakery KC"
             fill
             style={{ objectFit: 'cover' }}
