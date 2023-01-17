@@ -7,15 +7,15 @@ const MeetMe = (): JSX.Element => {
       <div className="grid grid-cols-1 lg:grid-cols-2 lg:gap-2 rounded-lg bg-white text-primary lg:max-h-[700px]">
         <div className="aspect-[1.5/1] lg:aspect-[1/1.5] relative">
           <Image
-            src="/images/lunaLaurenMiller.jpeg"
+            src="/images/laurenProfile.jpeg"
             alt="Luna Bakery KC"
             fill
             style={{ objectFit: 'cover' }}
-            className="rounded-t-lg lg:rounded-l-lg lg:max-h-[700px]"
+            className="rounded-tl-lg rounded-tr-lg rounded-bl-none lg:rounded-bl-lg lg:rounded-tr-none lg:max-h-[700px]"
           />
         </div>
-        <div className="p-8 lg:max-h-[700px] overflow-scroll">
-          <h1 className="leading-tight">
+        <div className="p-6 lg:max-h-[700px] overflow-scroll">
+          <h1 className="leading-tight text-4xl">
             Meet Lauren Miller, Owner of Luna Bakery
           </h1>
           <p className="mb-2">
@@ -37,13 +37,12 @@ const MeetMe = (): JSX.Element => {
             home kitchen to a small amount of weekly orders.
           </p>
           <p>
-            In addition to working with sourdough, I am an operations
-            director at a food tech company, a devoted mom, and wife
-            to my supportive partner. I am also neurodiverse and very
-            active in the adult women with autism community. I am so
-            excited about the prospect of providing important
-            sustenance to my community and I take pride in my
-            meticulous process!
+            In addition to working with sourdough, I am a tech
+            operations director, a devoted mom, and wife to my
+            supportive partner. I am also neurodiverse and very active
+            in the adult women with autism community. I am so excited
+            about the prospect of providing important sustenance to my
+            community and I take pride in my meticulous process!
           </p>
         </div>
         <div className="flex flex-col items-center justify-center">

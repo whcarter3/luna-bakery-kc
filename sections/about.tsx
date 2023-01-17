@@ -9,7 +9,7 @@ const aboutCards: CardProps[] = [
   },
   {
     title: 'Ingredients',
-    text: `All Luna sourdough loaves are made with a mixture of high protein bread flour, whole wheat flour, and rye flour. We source organic, non-gmo grains to maximize the benefits and make all loaves the old fashioned way with flour, kosher salt, and water. That’s it. There are no additives, preservatives, or hidden ingredients, just 3 ingredients!`,
+    text: `All Luna sourdough loaves are made with a mixture of high protein bread flour, whole wheat flour, and rye flour. We source organic, non-gmo grains to maximize the benefits and make all loaves the old fashioned way with flour, kosher salt, and water. That’s it. There are no additives, preservatives, or hidden ingredients.`,
   },
   {
     title: 'The Process',
@@ -20,7 +20,9 @@ const aboutCards: CardProps[] = [
 const About = (): JSX.Element => {
   return (
     <Section id="about" className="items-start max-w-5xl" alternate>
-      <h1 className="font-bold text-left">About Luna Sourdough</h1>
+      <h1 className="font-bold text-center w-full">
+        About Luna Sourdough
+      </h1>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4 w-full mt-8">
         {aboutCards.map((card) => (
           <Card
