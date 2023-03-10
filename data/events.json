@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Strawberry Festival",
+    "description": "A festival celebrating the strawberry where Luna Bakery KC will be selling",
+    "date": "2017-01-01T00:00:00.000Z",
+    "time": "8:00 AM",
+    "location": "event1",
+    "coordinates": {
+      "lat": 39.0997,
+      "lng": -94.5786
+    },
+    "url": "https://test.com/test"
+  },
+  {
+    "title": "Melon Festival",
+    "description": "A festival celebrating the strawberry where Luna Bakery KC will be selling",
+    "date": "2023-05-05T00:00:00.000Z",
+    "time": "8:00 AM",
+    "location": "event1",
+    "coordinates": {
+      "lat": 39.0997,
+      "lng": -94.5786
+    },
+    "url": "https://test.com/test"
+  },
+  {
+    "title": "Peach Festival",
+    "description": "A festival celebrating the strawberry where Luna Bakery KC will be selling",
+    "date": "2017-01-01T00:00:00.000Z",
+    "time": "8:00 AM",
+    "location": "event1",
+    "coordinates": {
+      "lat": 39.0997,
+      "lng": -94.5786
+    },
+    "url": "https://test.com/test"
+  }
+]

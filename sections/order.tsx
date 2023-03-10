@@ -1,65 +1,14 @@
-// import { useState, createRef, useEffect } from 'react';
 import Link from 'next/link';
-// import Countdown from 'react-countdown';
 import Section from '../components/section';
-// import { getClosestDay } from '../utils/helpers';
-
-type rendererProps = {
-  days: number;
-  hours: number;
-  minutes: number;
-  seconds: number;
-  completed: boolean;
-};
+import Event from '../components/event';
+import events from '../data/events.json';
 
 type OrderProps = {
   data: string;
 };
 
-//we use this to format the countdown timer
-//this is what we render if the timer is complete for the week
-const Completionist = (): JSX.Element => (
-  <p>
-    The deadline has passed for this week! Orders placed now will
-    fulfill the following week.
-  </p>
-);
-
-const countDownRenderer = ({
-  days,
-  hours,
-  minutes,
-  seconds,
-  completed,
-}: rendererProps) => {
-  if (completed) {
-    return <Completionist />;
-  } else {
-    return (
-      <>
-        <span className="font-serif text-2xl">
-          {days} days, {hours} hours, {minutes} minutes, {seconds}{' '}
-          seconds
-        </span>
-      </>
-    );
-  }
-};
-
 const Order = (): JSX.Element => {
-  //we use this to get the upcoming Friday for the countdown timer
-  // const [deadline, setDeadline] = useState(
-  // getClosestDay(5, false, true)
-  // ); //zero indexed starting on Monday, so 5 is Friday
-  // const [delivery, setDelivery] = useState(getClosestDay(0, true)); //zero indexed starting on Monday, so 6 is Sunday
-
-  //we create a ref for the countdown timer
-  // const countdownRef = createRef<Countdown>();
-
-  //we use this to start the countdown timer
-  // useEffect(() => {
-  //   countdownRef.current?.start();
-  // }, [countdownRef]);
+  let currentDateTime = new Date();
 
   return (
     <Section id="order" className="items-center">
@@ -73,15 +22,23 @@ const Order = (): JSX.Element => {
       >
         ORDER NOW
       </Link>
-      <div className="text-center">
-        {/* <Countdown
-          date={deadline}
-          renderer={countDownRenderer}
-          autoStart={false}
-          ref={countdownRef}
-        />
-        <br />
-        <span>left to order for {delivery} delivery!</span>*/}
+      <h2 className="text-center">Upcoming Events</h2>
+      <div className="grid grid-cols-2 gap-4">
+        {/* filters out events that have already passed */}
+        {events
+          .filter((event) => new Date(event.date) > currentDateTime)
+          .map((event, index) => (
+            <Event key={index} event={event} />
+          ))}
+      </div>
+      <h2 className="text-center mt-5">Past Events</h2>
+      <div className="grid grid-cols-2 gap-4">
+        {/* filters only events that have already passed */}
+        {events
+          .filter((event) => new Date(event.date) < currentDateTime)
+          .map((event, index) => (
+            <Event key={index} event={event} />
+          ))}
       </div>
     </Section>
   );
