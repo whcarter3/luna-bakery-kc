@@ -1,8 +1,8 @@
-import { useState, createRef, useEffect } from 'react';
+// import { useState, createRef, useEffect } from 'react';
 import Link from 'next/link';
-import Countdown from 'react-countdown';
+// import Countdown from 'react-countdown';
 import Section from '../components/section';
-import { getClosestDay } from '../utils/helpers';
+// import { getClosestDay } from '../utils/helpers';
 
 type rendererProps = {
   days: number;
@@ -48,18 +48,18 @@ const countDownRenderer = ({
 
 const Order = (): JSX.Element => {
   //we use this to get the upcoming Friday for the countdown timer
-  const [deadline, setDeadline] = useState(
-    getClosestDay(5, false, true)
-  ); //zero indexed starting on Monday, so 5 is Friday
-  const [delivery, setDelivery] = useState(getClosestDay(0, true)); //zero indexed starting on Monday, so 6 is Sunday
+  // const [deadline, setDeadline] = useState(
+  // getClosestDay(5, false, true)
+  // ); //zero indexed starting on Monday, so 5 is Friday
+  // const [delivery, setDelivery] = useState(getClosestDay(0, true)); //zero indexed starting on Monday, so 6 is Sunday
 
   //we create a ref for the countdown timer
-  const countdownRef = createRef<Countdown>();
+  // const countdownRef = createRef<Countdown>();
 
   //we use this to start the countdown timer
-  useEffect(() => {
-    countdownRef.current?.start();
-  }, [countdownRef]);
+  // useEffect(() => {
+  //   countdownRef.current?.start();
+  // }, [countdownRef]);
 
   return (
     <Section id="order" className="items-center">
@@ -74,14 +74,14 @@ const Order = (): JSX.Element => {
         ORDER NOW
       </Link>
       <div className="text-center">
-        <Countdown
+        {/* <Countdown
           date={deadline}
           renderer={countDownRenderer}
           autoStart={false}
           ref={countdownRef}
         />
         <br />
-        <span>left to order for {delivery} delivery!</span>
+        <span>left to order for {delivery} delivery!</span>*/}
       </div>
     </Section>
   );
