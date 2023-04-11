@@ -1,5 +1,6 @@
 import '../styles/globals.css';
 import type { AppProps } from 'next/app';
+import { Analytics } from '@vercel/analytics/react';
 import { Abril_Fatface, Inter } from '@next/font/google';
 
 // This is how google fonts are imported in Next.js
@@ -22,6 +23,7 @@ export default function App({ Component, pageProps }: AppProps) {
       className={`${abril.variable} ${inter.variable} font-sans text-white bg-primary mx-auto mt-[115px]`}
     >
       <Component {...pageProps} />
+      <Analytics />
     </main>
   );
 }
