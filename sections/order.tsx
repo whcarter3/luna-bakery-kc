@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import { SocialIcon } from 'react-social-icons';
 import Section from '../components/section';
 import Event from '../components/event';
 import events from '../data/events.json';
@@ -22,23 +23,46 @@ const Order = (): JSX.Element => {
       >
         ORDER NOW
       </Link>
-      <h2 className="text-center">Upcoming Events</h2>
-      <div className="grid grid-cols-2 gap-4">
-        {/* filters out events that have already passed */}
-        {events
-          .filter((event) => new Date(event.date) > currentDateTime)
-          .map((event, index) => (
-            <Event key={index} event={event} />
-          ))}
+      <div className="flex gap-3">
+        <SocialIcon
+          url="https://www.tiktok.com/lunabakerykc/"
+          bgColor="#eec9b6"
+          target={'_blank'}
+        />
+        <SocialIcon
+          url="https://www.instagram.com/lunabakerykc/"
+          bgColor="#eec9b6"
+          target={'_blank'}
+        />
+        <SocialIcon
+          url="https://www.facebook.com/profile.php?id=100090509860697&mibextid=LQQJ4d"
+          bgColor="#eec9b6"
+          target={'_blank'}
+        />
       </div>
-      <h2 className="text-center mt-5">Past Events</h2>
-      <div className="grid grid-cols-2 gap-4">
-        {/* filters only events that have already passed */}
-        {events
-          .filter((event) => new Date(event.date) < currentDateTime)
-          .map((event, index) => (
-            <Event key={index} event={event} />
-          ))}
+      <div className="p-2 border-accent border-2 rounded-lg mt-5">
+        <h2 className="text-center text-4xl">Upcoming Events</h2>
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+          {/* filters out events that have already passed */}
+          {events
+            .filter((event) => new Date(event.date) > currentDateTime)
+            .map((event, index) => (
+              <Event key={index} event={event} />
+            ))}
+        </div>
+        {events.filter(
+          (event) => new Date(event.date) > currentDateTime
+        ).length === 0 && (
+          <h2 className="text-center mt-5">Past Events</h2>
+        )}
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+          {/* filters only events that have already passed */}
+          {events
+            .filter((event) => new Date(event.date) < currentDateTime)
+            .map((event, index) => (
+              <Event key={index} event={event} />
+            ))}
+        </div>
       </div>
     </Section>
   );

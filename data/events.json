@@ -1,38 +1,38 @@
 [
   {
-    "title": "Strawberry Festival",
-    "description": "A festival celebrating the strawberry where Luna Bakery KC will be selling",
-    "date": "2017-01-01T00:00:00.000Z",
-    "time": "8:00 AM",
-    "location": "event1",
-    "coordinates": {
-      "lat": 39.0997,
-      "lng": -94.5786
-    },
-    "url": "https://test.com/test"
+    "title": "Splitlog Coffee Pop Up",
+    "description": "Is there a better combination than sourdough and coffee?",
+    "date": "Apr 22, 2023",
+    "time": "10am - 1pm",
+    "location": "Splitlog Coffee, Kansas City, Kansas",
+    "url": "https://splitlogcoffee.shop/",
+    "googleMapsUrl": "https://goo.gl/maps/jiEkaNTk3VbKhEgL7"
   },
   {
-    "title": "Melon Festival",
-    "description": "A festival celebrating the strawberry where Luna Bakery KC will be selling",
-    "date": "2023-05-05T00:00:00.000Z",
-    "time": "8:00 AM",
-    "location": "event1",
-    "coordinates": {
-      "lat": 39.0997,
-      "lng": -94.5786
-    },
-    "url": "https://test.com/test"
+    "title": "Parkville Farmers Market",
+    "description": "Our home for the summer! Come see us every Saturday from 7am-12pm.",
+    "date": "Apr 29, 2023",
+    "time": "7am - 12pm",
+    "location": "English Landing Park, Parkville, MO",
+    "url": "https://www.parkvillefarmersmarket.com/",
+    "googleMapsUrl": "https://goo.gl/maps/6pDLFjgNoAKvRcSX7"
   },
-  {
-    "title": "Peach Festival",
-    "description": "A festival celebrating the strawberry where Luna Bakery KC will be selling",
-    "date": "2017-01-01T00:00:00.000Z",
-    "time": "8:00 AM",
-    "location": "event1",
-    "coordinates": {
-      "lat": 39.0997,
-      "lng": -94.5786
-    },
-    "url": "https://test.com/test"
+    {
+    "title": "Parkville Farmers Market",
+    "description": "Our home for the summer! Come see us every Saturday from 7am-12pm.",
+    "date": "May 06, 2023",
+    "time": "7am - 12pm",
+    "location": "English Landing Park, Parkville, MO",
+    "url": "https://www.parkvillefarmersmarket.com/",
+    "googleMapsUrl": "https://goo.gl/maps/6pDLFjgNoAKvRcSX7"
+  },
+    {
+    "title": "Spring Swing at West Bottoms Heritage Days",
+    "description": "Join West Bottoms businesses, alongside Strawberry Swing makers, food trucks and musicians as we come together to celebrate community and engage in local commerce.",
+    "date": "May 13, 2023",
+    "time": "10am - 4pm",
+    "location": "Liberty Courtyard, Kansas City, MO",
+    "url": "https://www.thestrawberryswing.com/events/spring-swing-at-west-bottoms-heritage-days",
+    "googleMapsUrl": "https://goo.gl/maps/PWsXUrfBMe7NNxX9A"
   }
 ]
