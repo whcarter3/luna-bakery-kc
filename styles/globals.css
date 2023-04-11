@@ -13,11 +13,20 @@
   h1 {
     font-family: theme("fontFamily.serif");
     font-size: 40px;
-    @apply mb-4
+    @apply mb-4;
+  }
+  h2 {
+    font-family: theme("fontFamily.serif");
+    font-size: 30px;
+    @apply mb-4;
   }
   @media screen and (max-width: 768px) {
     h1 {
       font-size: 30px;
+      line-height: 1.2;
+    }
+    h2 {
+      font-size: 20px;
       line-height: 1.2;
     }
   }
@@ -51,5 +60,24 @@
     @apply flex;
     @apply flex-col;
     @apply justify-center;
+  }
+
+  .event {
+    @apply flex;
+    @apply flex-col;
+    @apply justify-center;
+    @apply items-center;
+    @apply text-center;
+    @apply px-4;
+    @apply py-8;
+    @apply rounded-lg;
+    @apply shadow-lg;
+    background: theme("colors.accent");
+    color: theme("colors.primary");
+  }
+
+  .event a {
+    color: theme("colors.primary");
+    text-decoration: underline;
   }
 }

@@ -13,7 +13,7 @@ const aboutCards: CardProps[] = [
   },
   {
     title: 'The Process',
-    text: `All loaves are made from a naturally leavened sourdough starter that is maintained on a twice daily basis. They are hand mixed in small batches in our home kitchen to ensure each loaf gets the time and attention it needs over the 18-24 hour fermentation period. The resulting loaf stays fresh for an extended period of time and has a unique, delicious, hearty taste.`,
+    text: `All loaves are naturally leavened from my sourdough starter that is maintained on a twice daily basis. They are hand mixed in small batches in our home kitchen to ensure each loaf gets the time and attention it needs over the 18-24 hour fermentation period. The resulting loaf stays fresh for an extended period of time and has a unique, delicious, hearty taste.`,
   },
 ];
 
