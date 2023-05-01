@@ -6,9 +6,7 @@ export default function Form(): JSX.Element {
   if (state.succeeded)
     return (
       <div className="w-full md:w-auto md:min-w-[700px] rounded-lg shadow-xl flex flex-col px-8 py-8 bg-white text-primary">
-        <h1 className="text-2xl font-bold dark:text-primary">
-          Message sent!
-        </h1>
+        <h1 className="text-2xl dark:text-primary">Message sent!</h1>
         <p className="mt-4 dark:text-primary">
           Thank you for your message. I will get back to you as soon
           as possible.
@@ -21,9 +19,7 @@ export default function Form(): JSX.Element {
       onSubmit={handleSubmit}
       className="w-full md:w-auto md:min-w-[700px] rounded-lg shadow-xl flex flex-col px-8 py-8 bg-white text-primary"
     >
-      <h1 className="text-2xl font-bold dark:text-primary">
-        Send a message
-      </h1>
+      <h1 className="text-2xl dark:text-primary">Send a message</h1>
 
       <label
         htmlFor="fullname"

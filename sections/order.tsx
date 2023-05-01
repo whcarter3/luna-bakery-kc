@@ -40,7 +40,7 @@ const Order = (): JSX.Element => {
           target={'_blank'}
         />
       </div>
-      <div className="p-2 border-accent border-2 rounded-lg mt-5">
+      <div className="p-2 mt-8">
         <h2 className="text-center text-4xl">Upcoming Events</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
           {/* filters out events that have already passed */}
@@ -50,15 +50,13 @@ const Order = (): JSX.Element => {
               <Event key={index} event={event} />
             ))}
         </div>
-        {events.filter(
-          (event) => new Date(event.date) > currentDateTime
-        ).length === 0 && (
-          <h2 className="text-center mt-5">Past Events</h2>
-        )}
+        <h2 className="text-center mt-6">Past Events</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-          {/* filters only events that have already passed */}
+          {/* filters only last events that have already passed in reverse date order */}
           {events
             .filter((event) => new Date(event.date) < currentDateTime)
+            .reverse()
+            .slice(0, 2)
             .map((event, index) => (
               <Event key={index} event={event} />
             ))}

@@ -17,16 +17,16 @@
     "url": "https://www.parkvillefarmersmarket.com/",
     "googleMapsUrl": "https://goo.gl/maps/6pDLFjgNoAKvRcSX7"
   },
-    {
+  {
     "title": "Parkville Farmers Market",
-    "description": "Our home for the summer! Come see us every Saturday from 7am-12pm.",
+    "description": "We will NOT be at the market this weekend. We will be back May 20th!",
     "date": "May 06, 2023",
     "time": "7am - 12pm",
     "location": "English Landing Park, Parkville, MO",
     "url": "https://www.parkvillefarmersmarket.com/",
     "googleMapsUrl": "https://goo.gl/maps/6pDLFjgNoAKvRcSX7"
   },
-    {
+  {
     "title": "Spring Swing at West Bottoms Heritage Days",
     "description": "Join West Bottoms businesses, alongside Strawberry Swing makers, food trucks and musicians as we come together to celebrate community and engage in local commerce.",
     "date": "May 13, 2023",
@@ -34,5 +34,23 @@
     "location": "Liberty Courtyard, Kansas City, MO",
     "url": "https://www.thestrawberryswing.com/events/spring-swing-at-west-bottoms-heritage-days",
     "googleMapsUrl": "https://goo.gl/maps/PWsXUrfBMe7NNxX9A"
+  },
+  {
+    "title": "Parkville Farmers Market",
+    "description": "Our home for the summer! Come see us every Saturday from 7am-12pm.",
+    "date": "May 20, 2023",
+    "time": "7am - 12pm",
+    "location": "English Landing Park, Parkville, MO",
+    "url": "https://www.parkvillefarmersmarket.com/",
+    "googleMapsUrl": "https://goo.gl/maps/6pDLFjgNoAKvRcSX7"
+  },
+  {
+    "title": "Parkville Farmers Market",
+    "description": "Our home for the summer! Come see us every Saturday from 7am-12pm.",
+    "date": "May 27, 2023",
+    "time": "7am - 12pm",
+    "location": "English Landing Park, Parkville, MO",
+    "url": "https://www.parkvillefarmersmarket.com/",
+    "googleMapsUrl": "https://goo.gl/maps/6pDLFjgNoAKvRcSX7"
   }
 ]
