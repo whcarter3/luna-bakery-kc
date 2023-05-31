@@ -45,7 +45,9 @@ const Order = (): JSX.Element => {
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
           {/* filters out events that have already passed */}
           {events
-            .filter((event) => new Date(event.date) > currentDateTime)
+            .filter(
+              (event) => new Date(event.expireDate) > currentDateTime
+            )
             .map((event, index) => (
               <Event key={index} event={event} />
             ))}
@@ -54,7 +56,9 @@ const Order = (): JSX.Element => {
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
           {/* filters only last events that have already passed in reverse date order */}
           {events
-            .filter((event) => new Date(event.date) < currentDateTime)
+            .filter(
+              (event) => new Date(event.expireDate) < currentDateTime
+            )
             .reverse()
             .slice(0, 2)
             .map((event, index) => (
