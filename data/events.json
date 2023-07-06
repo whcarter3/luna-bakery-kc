@@ -98,5 +98,55 @@
     "location": "English Landing Park, Parkville, MO",
     "url": "https://www.parkvillefarmersmarket.com/",
     "googleMapsUrl": "https://goo.gl/maps/6pDLFjgNoAKvRcSX7"
+  },
+  {
+    "title": "Rest Week",
+    "description": "We are OFF this week! Catch us next week at the same time same place.",
+    "date": "July 8, 2023",
+    "expireDate": "July 9, 2023",
+    "time": "7am - 12pm",
+    "location": "English Landing Park, Parkville, MO",
+    "url": "https://www.parkvillefarmersmarket.com/",
+    "googleMapsUrl": "https://goo.gl/maps/6pDLFjgNoAKvRcSX7"
+  },
+  {
+    "title": "Parkville Farmers Market",
+    "description": "Our home for the summer! Come see us every Saturday from 7am-12pm.",
+    "date": "July 15, 2023",
+    "expireDate": "July 16, 2023",
+    "time": "7am - 12pm",
+    "location": "English Landing Park, Parkville, MO",
+    "url": "https://www.parkvillefarmersmarket.com/",
+    "googleMapsUrl": "https://goo.gl/maps/6pDLFjgNoAKvRcSX7"
+  },
+  {
+    "title": "Parkville Farmers Market",
+    "description": "Our home for the summer! Come see us every Saturday from 7am-12pm.",
+    "date": "July 22, 2023",
+    "expireDate": "July 23, 2023",
+    "time": "7am - 12pm",
+    "location": "English Landing Park, Parkville, MO",
+    "url": "https://www.parkvillefarmersmarket.com/",
+    "googleMapsUrl": "https://goo.gl/maps/6pDLFjgNoAKvRcSX7"
+  },
+  {
+    "title": "Parkville Farmers Market",
+    "description": "Our home for the summer! Come see us every Saturday from 7am-12pm.",
+    "date": "July 29, 2023",
+    "expireDate": "July 30, 2023",
+    "time": "7am - 12pm",
+    "location": "English Landing Park, Parkville, MO",
+    "url": "https://www.parkvillefarmersmarket.com/",
+    "googleMapsUrl": "https://goo.gl/maps/6pDLFjgNoAKvRcSX7"
+  }
+  {
+    "title": "Wasteland Society",
+    "description": "We are OFF this week! Catch us next week at the same time same place.",
+    "date": "August 5, 2023",
+    "expireDate": "August 6, 2023",
+    "time": "7am - 12pm",
+    "location": "Crossroads, Kansas City, MO",
+    "url": "https://www.hitidescoffee.com/",
+    "googleMapsUrl": "https://goo.gl/maps/AfrngoWMQLnysxQaA"
   }
 ]
