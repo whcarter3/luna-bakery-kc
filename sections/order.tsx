@@ -48,6 +48,7 @@ const Order = (): JSX.Element => {
             .filter(
               (event) => new Date(event.expireDate) > currentDateTime
             )
+            .slice(0, 4)
             .map((event, index) => (
               <Event key={index} event={event} />
             ))}

@@ -8,7 +8,7 @@ type EventProps = {
     time: string;
     location: string;
     url: string;
-    googleMapsUrl: string;
+    googleMapsUrl?: string;
   };
 };
 
@@ -23,9 +23,11 @@ let Event = (props: EventProps) => {
       <Link href={event.url} target={'_blank'}>
         Event Website
       </Link>
-      <Link href={`${event.googleMapsUrl}}`} target={'_blank'}>
-        Get Directions
-      </Link>
+      {event.googleMapsUrl && (
+        <Link href={`${event.googleMapsUrl}}`} target={'_blank'}>
+          Get Directions
+        </Link>
+      )}
       <p className="mt-2">{event.description}</p>
     </div>
   );
