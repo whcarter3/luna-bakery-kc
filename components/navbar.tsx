@@ -21,6 +21,11 @@ const links: LinkDetails[] = [
   { href: '#meetMe', label: 'Meet Me', target: undefined },
   { href: '#contact', label: 'Contact', target: undefined },
   { href: '/starter-guide.pdf', label: 'Guide', target: '_blank' },
+  {
+    href: 'https://bit.ly/lunabakerysubscription',
+    label: 'Subscription',
+    target: '_blank',
+  },
 ];
 
 //this is our navbar component
