@@ -18,8 +18,6 @@ const links: LinkDetails[] = [
     target: '_blank',
   },
   { href: '#about', label: 'About', target: undefined },
-  { href: '#meetMe', label: 'Meet Me', target: undefined },
-  { href: '#contact', label: 'Contact', target: undefined },
   { href: '/starter-guide.pdf', label: 'Guide', target: '_blank' },
   {
     href: 'https://bit.ly/lunabakerysubscription',
