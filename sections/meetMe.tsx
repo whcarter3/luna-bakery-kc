@@ -19,30 +19,33 @@ const MeetMe = (): JSX.Element => {
             Meet Lauren Miller, Owner of Luna Bakery
           </h1>
           <p className="mb-2">
-            After a tough pregnancy with my daughter that resulted in
-            a diagnosis of pre-diabetes and hashimotos postpartum, I
-            knew I had to learn more about healing through food. I
-            have a history of working with fermented foods and have
-            made kombucha, fermented sodas, fire cider, and homemade
-            vinegars for over 12 years.
+            After getting diagnosed with pre-diabetes and hashimotos
+            postpartum, I knew I had to learn more about healing
+            through food. I have a history of working with fermented
+            foods and have made kombucha, fermented sodas, fire cider,
+            and homemade vinegars for over 12 years.
           </p>
           <p className="mb-2">
-            In 2022, I received a bit of 10-year-old starter, learned
-            the ins-and-outs of sourdough maintenance and baking, then
-            began providing sourdough baked goods in the form of
-            tortillas, desserts, crackers, and of course, loaves of
-            bread to my family and neighbors. I was able to turn my
-            health around and decided I wanted to share my love of
-            fermented sourdogh bread with my community by opening my
-            home kitchen to a small amount of weekly orders.
+            I started making all of my family&apos;s grain based items
+            from scratch using sourdough starter and discard ranging
+            from sourdough pie, crackers, to sourdough bread. I was
+            able to turn my health around and decided I wanted to
+            share my love of fermented bread with my community by
+            opening my home kitchen to a small amount of weekly
+            orders.
           </p>
           <p>
-            In addition to working with sourdough, I am a tech
-            operations director, a devoted mom, and wife to my
-            supportive partner. I am also neurodiverse and very active
-            in the adult women with autism community. I am so excited
-            about the prospect of providing important sustenance to my
-            community and I take pride in my meticulous process!
+            What started as a hobby turned into a small business where
+            I get to uphold my values. I focus on sourcing organic,
+            non gmo, and local whenever possible. I love combining
+            unexpected flavors and utilizing in season produce. I also
+            grow a lot of what I use in my baked goods in our backyard
+            garden.
+          </p>
+          <p>
+            In addition to baking, I work in tech operations, am a
+            devoted mom, and wife to my supportive husband. I&apos;m
+            also an avid gardener and animal lover.
           </p>
         </div>
         <div className="flex flex-col items-center justify-center">

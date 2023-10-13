@@ -5,7 +5,7 @@ import type { CardProps } from '../components/card';
 const aboutCards: CardProps[] = [
   {
     title: 'Why Sourdough?',
-    text: `Sourdough is the oldest bread method in the world! The fermentation process creates natural, wild yeasts that adapt to the air and environment around them. As a result, all sourdough starters are unique in bacterial content, and the resulting yeast naturally leavens the bread. Sourdough naturally  has a lower glycemic load, a lower gluten content, and higher probiotic content than instant yeast bread.`,
+    text: `The fermentation process creates natural, wild yeasts that adapt to the air and environment around them. All sourdough starters are unique in bacterial content and the resulting yeast naturally leavens the bread. Sourdough naturally has a lower glycemic load, a lower gluten content, and higher probiotic content than bread made with instant yeast`,
   },
   {
     title: 'Ingredients',
@@ -13,7 +13,7 @@ const aboutCards: CardProps[] = [
   },
   {
     title: 'The Process',
-    text: `All loaves are naturally leavened from my sourdough starter that is maintained on a twice daily basis. They are hand mixed in small batches in our home kitchen to ensure each loaf gets the time and attention it needs over the 18-24 hour fermentation period. The resulting loaf stays fresh for an extended period of time and has a unique, delicious, hearty taste.`,
+    text: `All loaves are naturally leavened using our sourdough starter. They are all mixed in small batches in our home kitchen to ensure each loaf gets the time and attention it needs over the 24+ hour fermentation period. The resulting loaf stays fresh for an extended period of time and has a unique, delicious, hearty taste.`,
   },
 ];
 
