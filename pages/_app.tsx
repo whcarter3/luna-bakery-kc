@@ -1,7 +1,7 @@
 import '../styles/globals.css';
 import type { AppProps } from 'next/app';
 import { Analytics } from '@vercel/analytics/react';
-import { Abril_Fatface, Inter } from '@next/font/google';
+import { Abril_Fatface, Inter } from "next/font/google";
 
 // This is how google fonts are imported in Next.js
 const abril = Abril_Fatface({
