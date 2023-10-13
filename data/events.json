@@ -258,5 +258,25 @@
     "location": "English Landing Park, Parkville, MO",
     "url": "https://www.parkvillefarmersmarket.com/",
     "googleMapsUrl": "https://goo.gl/maps/6pDLFjgNoAKvRcSX7"
+  },
+  {
+    "title": "Parkville Farmers Market",
+    "description": "Our home until mid October! Come see us every Saturday from 7am-12pm.",
+    "date": "October 21, 2023",
+    "expireDate": "October 21, 2023",
+    "time": "7am - 12pm",
+    "location": "English Landing Park, Parkville, MO",
+    "url": "https://www.parkvillefarmersmarket.com/",
+    "googleMapsUrl": "https://goo.gl/maps/6pDLFjgNoAKvRcSX7"
+  },
+  {
+    "title": "Parkville Farmers Market",
+    "description": "Our home until mid October! Come see us every Saturday from 7am-12pm.",
+    "date": "October 28, 2023",
+    "expireDate": "October 28, 2023",
+    "time": "7am - 12pm",
+    "location": "English Landing Park, Parkville, MO",
+    "url": "https://www.parkvillefarmersmarket.com/",
+    "googleMapsUrl": "https://goo.gl/maps/6pDLFjgNoAKvRcSX7"
   }
 ]
