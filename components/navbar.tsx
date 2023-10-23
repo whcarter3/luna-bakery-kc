@@ -24,6 +24,11 @@ const links: LinkDetails[] = [
     label: 'Subscription',
     target: '_blank',
   },
+  {
+    href: 'https://www.hotplate.com/lunabakerykc?event=7b3e8',
+    label: 'Holiday Menu',
+    target: '_blank',
+  },
 ];
 
 //this is our navbar component
