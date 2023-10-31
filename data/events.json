@@ -278,5 +278,15 @@
     "location": "English Landing Park, Parkville, MO",
     "url": "https://www.parkvillefarmersmarket.com/",
     "googleMapsUrl": "https://goo.gl/maps/6pDLFjgNoAKvRcSX7"
+  },
+  {
+    "title": "Shop Local KC Brookside",
+    "description": "Holiday menu items at Shop Local KC",
+    "date": "November 4, 2023",
+    "expireDate": "November 4, 2023",
+    "time": "10am - 4pm",
+    "location": "Shop Local KC Brookside, Kansas City, MO",
+    "url": "https://www.shoplocalkc.com/",
+    "googleMapsUrl": "https://maps.app.goo.gl/cgU2oiTo3m8Yki748"
   }
 ]
