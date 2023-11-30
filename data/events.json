@@ -288,5 +288,45 @@
     "location": "Shop Local KC Brookside, Kansas City, MO",
     "url": "https://www.shoplocalkc.com/",
     "googleMapsUrl": "https://maps.app.goo.gl/cgU2oiTo3m8Yki748"
+  },
+  {
+    "title": "Mr. D's Very Merry Christmas Market",
+    "description": "Holiday baked goods at Mr. D's",
+    "date": "December 3, 2023",
+    "expireDate": "December 3, 2023",
+    "time": "8am - 12pm",
+    "location": "Mr. D's Donut Shop, Shawnee, KS",
+    "url": "https://www.facebook.com/profile.php?id=100063498855554",
+    "googleMapsUrl": "https://maps.app.goo.gl/wa7y2jLozYgQ4fGaA"
+  },
+  {
+    "title": "Merry Market with Art Garden KC",
+    "description": "Holiday baked goods at City Market",
+    "date": "December 9, 2023",
+    "expireDate": "December 9, 2023",
+    "time": "10am - 5pm",
+    "location": "City Market, Kansas City, MO",
+    "url": "https://www.artgardenkc.org/events/merry-market-at-city-market",
+    "googleMapsUrl": "https://maps.app.goo.gl/ye3CbxnZFU5K4wo5A"
+  },
+  {
+    "title": "Merry Market with Art Garden KC",
+    "description": "Holiday baked goods at City Market",
+    "date": "December 10, 2023",
+    "expireDate": "December 10, 2023",
+    "time": "10am - 5pm",
+    "location": "City Market, Kansas City, MO",
+    "url": "https://www.artgardenkc.org/events/merry-market-at-city-market",
+    "googleMapsUrl": "https://maps.app.goo.gl/ye3CbxnZFU5K4wo5A"
+  },
+  {
+    "title": "Made in KC Holiday Pop Up",
+    "description": "Holiday baked goods at Made in KC Barrywoods",
+    "date": "December 18, 2023",
+    "expireDate": "December 18, 2023",
+    "time": "10am - 2pm",
+    "location": "Made in KC Barrywoods, Kansas City, MO",
+    "url": "https://madeinkc.co/",
+    "googleMapsUrl": "https://maps.app.goo.gl/C7rfFQKfMw5zZaTM7"
   }
 ]
