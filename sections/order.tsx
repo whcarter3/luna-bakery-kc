@@ -42,30 +42,29 @@ const Order = (): JSX.Element => {
       </div>
       <div className="p-2 mt-8">
         <h2 className="text-center text-4xl">Upcoming Events</h2>
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-          {/* filters out events that have already passed */}
-          {events
-            .filter(
-              (event) => new Date(event.expireDate) > currentDateTime
-            )
-            .slice(0, 4)
-            .map((event, index) => (
-              <Event key={index} event={event} />
-            ))}
-        </div>
-        <h2 className="text-center mt-6">Past Events</h2>
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-          {/* filters only last events that have already passed in reverse date order */}
-          {events
-            .filter(
-              (event) => new Date(event.expireDate) < currentDateTime
-            )
-            .reverse()
-            .slice(0, 2)
-            .map((event, index) => (
-              <Event key={index} event={event} />
-            ))}
-        </div>
+        {/* filters out events that have already passed */}
+        {/* if all events are out of date show a message instead */}
+        {(() => {
+          const upcomingEvents = events.filter(
+            (event) => new Date(event.expireDate) > new Date()
+          );
+
+          if (upcomingEvents.length === 0) {
+            return (
+              <p className="text-center">
+                No upcoming events at this time. Check back soon!
+              </p>
+            );
+          }
+
+          return (
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+              {upcomingEvents.slice(0, 4).map((event, index) => (
+                <Event key={index} event={event} />
+              ))}
+            </div>
+          );
+        })()}
       </div>
     </Section>
   );
