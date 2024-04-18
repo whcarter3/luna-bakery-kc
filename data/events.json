@@ -328,5 +328,55 @@
     "location": "Made in KC Barrywoods, Kansas City, MO",
     "url": "https://madeinkc.co/",
     "googleMapsUrl": "https://maps.app.goo.gl/C7rfFQKfMw5zZaTM7"
+  },
+  {
+    "title": "Parkville Farmers Market",
+    "description": "Our home until mid October! Come see us every Saturday from 7am-12pm.",
+    "date": "April 27, 2024",
+    "expireDate": "April 28, 2024",
+    "time": "7am - 12pm",
+    "location": "English Landing Park, Parkville, MO",
+    "url": "https://www.parkvillefarmersmarket.com/",
+    "googleMapsUrl": "https://goo.gl/maps/6pDLFjgNoAKvRcSX7"
+  },
+  {
+    "title": "Parkville Farmers Market",
+    "description": "Our home until mid October! Come see us every Saturday from 7am-12pm.",
+    "date": "May 4, 2024",
+    "expireDate": "May 5, 2024",
+    "time": "7am - 12pm",
+    "location": "English Landing Park, Parkville, MO",
+    "url": "https://www.parkvillefarmersmarket.com/",
+    "googleMapsUrl": "https://goo.gl/maps/6pDLFjgNoAKvRcSX7"
+  },
+  {
+    "title": "Parkville Farmers Market",
+    "description": "Our home until mid October! Come see us every Saturday from 7am-12pm.",
+    "date": "May 11, 2024",
+    "expireDate": "May 12, 2024",
+    "time": "7am - 12pm",
+    "location": "English Landing Park, Parkville, MO",
+    "url": "https://www.parkvillefarmersmarket.com/",
+    "googleMapsUrl": "https://goo.gl/maps/6pDLFjgNoAKvRcSX7"
+  },
+  {
+    "title": "Parkville Farmers Market",
+    "description": "Our home until mid October! Come see us every Saturday from 7am-12pm.",
+    "date": "May 18, 2024",
+    "expireDate": "May 19, 2024",
+    "time": "7am - 12pm",
+    "location": "English Landing Park, Parkville, MO",
+    "url": "https://www.parkvillefarmersmarket.com/",
+    "googleMapsUrl": "https://goo.gl/maps/6pDLFjgNoAKvRcSX7"
+  },
+  {
+    "title": "Parkville Farmers Market",
+    "description": "Our home until mid October! Come see us every Saturday from 7am-12pm.",
+    "date": "May 25, 2024",
+    "expireDate": "May 26, 2024",
+    "time": "7am - 12pm",
+    "location": "English Landing Park, Parkville, MO",
+    "url": "https://www.parkvillefarmersmarket.com/",
+    "googleMapsUrl": "https://goo.gl/maps/6pDLFjgNoAKvRcSX7"
   }
 ]
