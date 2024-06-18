@@ -5,9 +5,9 @@ type EventProps = {
     title: string;
     description: string;
     date: string;
-    time: string;
-    location: string;
-    url: string;
+    time?: string;
+    location?: string;
+    url?: string;
     googleMapsUrl?: string;
   };
 };
