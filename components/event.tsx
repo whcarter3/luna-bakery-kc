@@ -17,12 +17,14 @@ let Event = (props: EventProps) => {
   return (
     <div className="event">
       <p>{event.date.toLocaleString()}</p>
-      <p>{event.time}</p>
+      {event.time && <p>{event.time}</p>}
       <h2 className="max-w-[500px]">{event.title}</h2>
       {/* <p>{event.location}</p> */}
-      <Link href={event.url} target={'_blank'}>
-        Event Website
-      </Link>
+      {event.url && (
+        <Link href={event.url} target={'_blank'}>
+          Event Website
+        </Link>
+      )}
       {event.googleMapsUrl && (
         <Link href={`${event.googleMapsUrl}}`} target={'_blank'}>
           Get Directions
