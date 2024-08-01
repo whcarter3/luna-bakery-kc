@@ -436,10 +436,130 @@
     "googleMapsUrl": "https://goo.gl/maps/6pDLFjgNoAKvRcSX7"
   },
   {
-    "title": "Parkville Farmers Market",
-    "description": "Come see us every Saturday from 7am-12pm.",
+    "title": "Out of Town",
+    "description": "See you next week!",
     "date": "August 3, 2024",
     "expireDate": "August 4, 2024",
+    "time": "",
+    "location": "English Landing Park, Parkville, MO",
+    "url": "",
+    "googleMapsUrl": ""
+  },
+  {
+    "title": "Parkville Farmers Market",
+    "description": "Come see us every Saturday from 7am-12pm.",
+    "date": "August 10, 2024",
+    "expireDate": "August 11, 2024",
+    "time": "7am - 12pm",
+    "location": "English Landing Park, Parkville, MO",
+    "url": "https://www.parkvillefarmersmarket.com/",
+    "googleMapsUrl": "https://goo.gl/maps/6pDLFjgNoAKvRcSX7"
+  },
+  {
+    "title": "Parkville Farmers Market",
+    "description": "Come see us every Saturday from 7am-12pm.",
+    "date": "August 17, 2024",
+    "expireDate": "August 18, 2024",
+    "time": "7am - 12pm",
+    "location": "English Landing Park, Parkville, MO",
+    "url": "https://www.parkvillefarmersmarket.com/",
+    "googleMapsUrl": "https://goo.gl/maps/6pDLFjgNoAKvRcSX7"
+  },
+  {
+    "title": "Parkville Farmers Market",
+    "description": "Come see us every Saturday from 7am-12pm.",
+    "date": "August 24, 2024",
+    "expireDate": "August 25, 2024",
+    "time": "7am - 12pm",
+    "location": "English Landing Park, Parkville, MO",
+    "url": "https://www.parkvillefarmersmarket.com/",
+    "googleMapsUrl": "https://goo.gl/maps/6pDLFjgNoAKvRcSX7"
+  },
+  {
+    "title": "Parkville Farmers Market",
+    "description": "Come see us every Saturday from 7am-12pm.",
+    "date": "August 31, 2024",
+    "expireDate": "September 1, 2024",
+    "time": "7am - 12pm",
+    "location": "English Landing Park, Parkville, MO",
+    "url": "https://www.parkvillefarmersmarket.com/",
+    "googleMapsUrl": "https://goo.gl/maps/6pDLFjgNoAKvRcSX7"
+  },
+  {
+    "title": "Parkville Farmers Market",
+    "description": "Come see us every Saturday from 7am-12pm.",
+    "date": "September 7, 2024",
+    "expireDate": "September 8, 2024",
+    "time": "7am - 12pm",
+    "location": "English Landing Park, Parkville, MO",
+    "url": "https://www.parkvillefarmersmarket.com/",
+    "googleMapsUrl": "https://goo.gl/maps/6pDLFjgNoAKvRcSX7"
+  },
+  {
+    "title": "Parkville Farmers Market",
+    "description": "Come see us every Saturday from 7am-12pm.",
+    "date": "September 14, 2024",
+    "expireDate": "September 15, 2024",
+    "time": "7am - 12pm",
+    "location": "English Landing Park, Parkville, MO",
+    "url": "https://www.parkvillefarmersmarket.com/",
+    "googleMapsUrl": "https://goo.gl/maps/6pDLFjgNoAKvRcSX7"
+  },
+  {
+    "title": "Parkville Farmers Market",
+    "description": "Come see us every Saturday from 7am-12pm.",
+    "date": "September 21, 2024",
+    "expireDate": "September 22, 2024",
+    "time": "7am - 12pm",
+    "location": "English Landing Park, Parkville, MO",
+    "url": "https://www.parkvillefarmersmarket.com/",
+    "googleMapsUrl": "https://goo.gl/maps/6pDLFjgNoAKvRcSX7"
+  },
+  {
+    "title": "Parkville Farmers Market",
+    "description": "Come see us every Saturday from 7am-12pm.",
+    "date": "September 28, 2024",
+    "expireDate": "September 29, 2024",
+    "time": "7am - 12pm",
+    "location": "English Landing Park, Parkville, MO",
+    "url": "https://www.parkvillefarmersmarket.com/",
+    "googleMapsUrl": "https://goo.gl/maps/6pDLFjgNoAKvRcSX7"
+  },
+  {
+    "title": "Parkville Farmers Market",
+    "description": "Come see us every Saturday from 7am-12pm.",
+    "date": "October 5, 2024",
+    "expireDate": "October 6, 2024",
+    "time": "7am - 12pm",
+    "location": "English Landing Park, Parkville, MO",
+    "url": "https://www.parkvillefarmersmarket.com/",
+    "googleMapsUrl": "https://goo.gl/maps/6pDLFjgNoAKvRcSX7"
+  },
+  {
+    "title": "Parkville Farmers Market",
+    "description": "Come see us every Saturday from 7am-12pm.",
+    "date": "October 12, 2024",
+    "expireDate": "October 13, 2024",
+    "time": "7am - 12pm",
+    "location": "English Landing Park, Parkville, MO",
+    "url": "https://www.parkvillefarmersmarket.com/",
+    "googleMapsUrl": "https://goo.gl/maps/6pDLFjgNoAKvRcSX7"
+  },
+  {
+    "title": "Parkville Farmers Market",
+    "description": "Come see us every Saturday from 7am-12pm.",
+    "date": "October 19, 2024",
+    "expireDate": "October 20, 2024",
+    "time": "7am - 12pm",
+    "location": "English Landing Park, Parkville, MO",
+    "url": "https://www.parkvillefarmersmarket.com/",
+    "googleMapsUrl": "https://goo.gl/maps/6pDLFjgNoAKvRcSX7"
+  },
+  {
+    "title": "Parkville Farmers Market",
+    "description": "Come see us every Saturday from 7am-12pm.",
+    "date": "October 26, 2024",
+    "expireDate": "October 27, 2024",
     "time": "7am - 12pm",
     "location": "English Landing Park, Parkville, MO",
     "url": "https://www.parkvillefarmersmarket.com/",
