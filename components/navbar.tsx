@@ -13,12 +13,16 @@ type LinkDetails = {
 //This is our collection of links that link to internal and external pages
 const links: LinkDetails[] = [
   {
-      href: 'https://shop.castiron.me/luna-bakery',
-     label: 'Order',
+    href: 'https://shop.castiron.me/luna-bakery',
+    label: 'Order',
     target: '_blank',
   },
   { href: '#about', label: 'About', target: undefined },
-  { href: '/starter-guide.pdf', label: 'Guide', target: '_blank' }
+  {
+    href: '/starter-guide.pdf',
+    label: 'Starter Guide',
+    target: '_blank',
+  },
   // {
   // href: 'https://bit.ly/lunabakerysubscription',
   //  label: 'Subscription',
