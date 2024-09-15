@@ -18,12 +18,12 @@ const links: LinkDetails[] = [
     target: '_blank',
   },
   { href: '#about', label: 'About', target: undefined },
-  { href: '/starter-guide.pdf', label: 'Guide', target: '_blank' },
-  {
-    href: 'https://bit.ly/lunabakerysubscription',
-    label: 'Subscription',
-    target: '_blank',
-  },
+  { href: '/starter-guide.pdf', label: 'Guide', target: '_blank' }
+  // {
+  // href: 'https://bit.ly/lunabakerysubscription',
+  //  label: 'Subscription',
+  //  target: '_blank',
+  //},
   // {
   //   href: 'https://www.hotplate.com/lunabakerykc?event=7b3e8',
   //   label: 'Holiday Menu',
