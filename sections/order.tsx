@@ -16,13 +16,13 @@ const Order = (): JSX.Element => {
       <h1 className="text-center">
         A home sourdough microbakery serving Kansas City
       </h1>
-      {/* <Link
+      <Link
         href=""
         className="button success mt-2 mb-6"
         target={'_blank'}
       >
         ORDER NOW
-      </Link> */}
+      </Link>
       <div className="flex gap-3">
         <SocialIcon
           url="https://www.tiktok.com/lunabakerykc/"
@@ -42,23 +42,10 @@ const Order = (): JSX.Element => {
       </div>
       <div className="p-2 mt-8">
         <h2 className="text-center text-4xl">Upcoming Events</h2>
-        <p className="mb-2 text-center">
-          No upcoming events at this time. Our online shop is shut
-          down for the time being.
-        </p>
-        <p className="mb-2 text-center">
-          For more information please refer to{' '}
-          <Link
-            href="https://www.instagram.com/p/C_InAsJOtwA/?img_index=1"
-            target="_blank"
-            className="text-secondary"
-          >
-            this post on our Instagram.
-          </Link>
-        </p>
+        
         {/* filters out events that have already passed */}
         {/* if all events are out of date show a message instead */}
-        {/* {(() => {
+        {(() => {
           const upcomingEvents = events.filter(
             (event) => new Date(event.expireDate) > new Date()
           );
@@ -78,7 +65,7 @@ const Order = (): JSX.Element => {
               ))}
             </div>
           );
-        })()} */}
+        })()}
       </div>
     </Section>
   );
