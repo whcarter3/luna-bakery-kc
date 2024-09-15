@@ -17,7 +17,7 @@ const Order = (): JSX.Element => {
         A home sourdough microbakery serving Kansas City
       </h1>
       <Link
-        href=""
+        href="https://shop.castiron.me/luna-bakery"
         className="button success mt-2 mb-6"
         target={'_blank'}
       >
@@ -42,7 +42,7 @@ const Order = (): JSX.Element => {
       </div>
       <div className="p-2 mt-8">
         <h2 className="text-center text-4xl">Upcoming Events</h2>
-        
+
         {/* filters out events that have already passed */}
         {/* if all events are out of date show a message instead */}
         {(() => {
