@@ -19,33 +19,31 @@ const MeetMe = (): JSX.Element => {
             Meet Lauren Miller, Owner of Luna Bakery
           </h1>
           <p className="mb-2">
-            After getting diagnosed with pre-diabetes and hashimotos
-            postpartum, I knew I had to learn more about healing
-            through food. I have a history of working with fermented
-            foods and have made kombucha, fermented sodas, fire cider,
-            and homemade vinegars for over 12 years.
+            After struggling with autoimmune and hormone flareups postpartum, 
+            I knew I had to learn more about healing through food. 
+            I have a history of working with fermented foods and have 
+            made kombucha, fermented sodas, fire cider, and homemade 
+            vinegars for over 12 years.
           </p>
           <p className="mb-2">
-            I started making all of my family&apos;s grain based items
-            from scratch using sourdough starter and discard ranging
-            from sourdough pie, crackers, to sourdough bread. I was
-            able to turn my health around and decided I wanted to
-            share my love of fermented bread with my community by
-            opening my home kitchen to a small amount of weekly
-            orders.
+            I started focusing on sourdough baking for my family and I.
+            I was able to turn my health around and decided I wanted to
+            share my love of fermented bread with my community by opening 
+            my home kitchen to a small amount of weekly orders in January 
+            of 2023. Now we have a successful farmer's market stall at the
+            Parkville Farmers Market and are building our online business
+            even more. 
           </p>
-          <p>
-            What started as a hobby turned into a small business where
-            I get to uphold my values. I focus on sourcing organic,
-            non gmo, and local whenever possible. I love combining
-            unexpected flavors and utilizing in season produce. I also
-            grow a lot of what I use in my baked goods in our backyard
-            garden.
-          </p>
-          <p>
-            In addition to baking, I work in tech operations, am a
-            devoted mom, and wife to my supportive husband. I&apos;m
-            also an avid gardener and animal lover.
+          <p className="mb-2">
+            I named my business after my daughter, my first child, Billie 
+            Luna Carter with the intent of building a business that allowed
+            me to spend as much time as possible with her. She loved attending
+            markets with me, baking, and was my best taste tester. She passed
+            away very unexpectedly in August 2024 at the tiny age of 2 years
+            6 months. The pain of her loss is something I'm not able to put into
+            words. While Billie's life was short, she is the light and evergy
+            that keeps both me and my bakery running. Please think of Billie 
+            while you enjoy our delicious, nourishing baked goods.
           </p>
         </div>
         <div className="flex flex-col items-center justify-center">
