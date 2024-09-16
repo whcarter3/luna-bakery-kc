@@ -43,7 +43,7 @@ const MeetMe = (): JSX.Element => {
             August 2024 at the tiny age of 2 years 6 months. The pain
             of her loss is something I&apos;m not able to put into
             words. While Billie&apos;s life was short, she is the
-            light and evergy that keeps both me and my bakery running.
+            light and energy that keeps both me and my bakery running.
             Please think of Billie while you enjoy our delicious,
             nourishing baked goods.
           </p>
