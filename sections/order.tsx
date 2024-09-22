@@ -14,7 +14,7 @@ const Order = (): JSX.Element => {
   return (
     <Section id="order" className="items-center" alternate>
       <h1 className="text-center font-bold">
-        A home sourdough microbakery serving Kansas City
+        A sourdough microbakery serving Kansas City
       </h1>
       <Link
         href="https://shop.castiron.me/luna-bakery"
