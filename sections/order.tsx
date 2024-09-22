@@ -12,8 +12,8 @@ const Order = (): JSX.Element => {
   let currentDateTime = new Date();
 
   return (
-    <Section id="order" className="items-center">
-      <h1 className="text-center">
+    <Section id="order" className="items-center" alternate>
+      <h1 className="text-center font-bold">
         A home sourdough microbakery serving Kansas City
       </h1>
       <Link
@@ -26,22 +26,24 @@ const Order = (): JSX.Element => {
       <div className="flex gap-3">
         <SocialIcon
           url="https://www.tiktok.com/lunabakerykc/"
-          bgColor="#eec9b6"
+          bgColor="#2a3b52"
           target={'_blank'}
         />
         <SocialIcon
           url="https://www.instagram.com/lunabakerykc/"
-          bgColor="#eec9b6"
+          bgColor="#2a3b52"
           target={'_blank'}
         />
         <SocialIcon
           url="https://www.facebook.com/profile.php?id=100090509860697&mibextid=LQQJ4d"
-          bgColor="#eec9b6"
+          bgColor="#2a3b52"
           target={'_blank'}
         />
       </div>
       <div className="p-2 mt-8">
-        <h2 className="text-center text-4xl">Upcoming Events</h2>
+        <h2 className="text-center text-4xl font-bold">
+          Upcoming Events
+        </h2>
 
         {/* filters out events that have already passed */}
         {/* if all events are out of date show a message instead */}

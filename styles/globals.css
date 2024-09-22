@@ -72,12 +72,12 @@
     @apply py-8;
     @apply rounded-lg;
     @apply shadow-lg;
-    background: theme("colors.accent");
-    color: theme("colors.primary");
+    background: theme("colors.primary");
+    color: white;
   }
 
   .event a {
-    color: theme("colors.primary");
+    color: white;
     text-decoration: underline;
   }
 }

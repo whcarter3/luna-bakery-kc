@@ -9,7 +9,7 @@ module.exports = {
   ],
   theme: {
     fontFamily: {
-      serif: ['var(--font-abril-fatface)', ...fontFamily.serif],
+      serif: ['var(--font-pt-serif)', ...fontFamily.serif],
       sans: ['var(--font-inter)', ...fontFamily.sans],
     },
     extend: {
@@ -17,7 +17,7 @@ module.exports = {
         //prettier-ignore
         'primary': '#2a3b52',
         secondary: '#91b1b2',
-        accent: '#eec9b6',
+        accent: '#FFEEE2',
         success: '#88B396',
       },
     },
