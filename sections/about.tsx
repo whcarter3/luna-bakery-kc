@@ -5,7 +5,7 @@ import type { CardProps } from '../components/card';
 const aboutCards: CardProps[] = [
   {
     title: 'Why Sourdough?',
-    text: `The fermentation process creates natural, wild yeasts that adapt to the air and environment around them. All sourdough starters are unique in bacterial content and the resulting yeast naturally leavens the bread. Sourdough naturally has a lower glycemic load, a lower gluten content, and higher probiotic content than bread made with instant yeast`,
+    text: `The fermentation process creates natural, wild yeasts that adapt to the air and environment around them. All sourdough starters are unique in bacterial content and the resulting yeast naturally leavens the bread. Sourdough naturally has a lower glycemic load, a lower gluten content, and higher probiotic content than bread made with instant yeast.`,
   },
   {
     title: 'Ingredients',

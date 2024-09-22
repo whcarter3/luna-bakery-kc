@@ -1,9 +1,9 @@
 import Image from 'next/image';
-import heroImage from '../public/images/homepage-cover.jpeg';
+import heroImage from '../public/images/homepage-cover-09222024-1.jpeg';
 
 const Hero = () => {
   return (
-    <div className="w-full relative aspect-[3/2] md:aspect-[21/10]">
+    <div className="w-full relative aspect-[5/2] md:aspect-[22/8]">
       <Image
         src={heroImage}
         alt="Luna Bakery KC"

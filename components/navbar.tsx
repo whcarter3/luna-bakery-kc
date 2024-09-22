@@ -38,7 +38,7 @@ const links: LinkDetails[] = [
 //this is our navbar component
 const Navbar = () => {
   return (
-    <nav className="p-0 md:p-2 fixed top-0 left-0 z-10 bg-primary w-full shadow-lg">
+    <nav className="p-0 md:p-2 fixed top-0 left-0 z-10 bg-accent w-full shadow-lg">
       <div className="mx-auto flex flex-wrap md:flex-nowrap items-center justify-between px-0 py-0 md:py-3">
         <div className="flex items-center justify-center md:justify-start w-full md:w-auto">
           <Logo
@@ -57,7 +57,7 @@ const Navbar = () => {
               key={href}
               href={href}
               target={target}
-              className="px-3 py-2 font-serif md:text-2xl text-primary md:text-white"
+              className="px-3 py-2 font-serif font-bold md:text-2xl text-primary"
             >
               {label}
             </Link>
