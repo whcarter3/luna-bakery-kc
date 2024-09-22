@@ -1,8 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 import Logo from './logo';
-import Button from './button';
-import logoSrc from '../public/logo.png';
+import logoSrc from '../public/images/logo-09222024.png';
 
 type LinkDetails = {
   href: string;
