@@ -63,6 +63,16 @@ const Navbar = () => {
           ))}
         </div>
       </div>
+      <div className="bg-primary px-3 py-2 text-center">
+        <p>
+          Luna Bakery is currently closed for Lauren&apos;s maternity
+          leave. We will tentatively reopen in Dember for the
+          holidays.
+          <br />
+          Follow us on socials for the most up to date information!
+          Thank you for your support!
+        </p>
+      </div>
     </nav>
   );
 };
