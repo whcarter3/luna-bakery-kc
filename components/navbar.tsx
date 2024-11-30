@@ -12,7 +12,7 @@ type LinkDetails = {
 //This is our collection of links that link to internal and external pages
 const links: LinkDetails[] = [
   {
-    href: '#',
+    href: 'https://shop.castiron.me/luna-bakery',
     label: 'Order',
   },
   { href: '#about', label: 'About', target: undefined },
@@ -61,16 +61,6 @@ const Navbar = () => {
             </Link>
           ))}
         </div>
-      </div>
-      <div className="bg-primary px-3 py-2 text-center">
-        <p>
-          Luna Bakery is currently closed for Lauren&apos;s maternity
-          leave. We will tentatively reopen in December for the
-          holidays.
-          <br />
-          Follow us on socials for the most up to date information!
-          Thank you for your support!
-        </p>
       </div>
     </nav>
   );

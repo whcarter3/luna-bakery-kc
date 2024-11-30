@@ -16,8 +16,11 @@ const Order = (): JSX.Element => {
       <h1 className="text-center font-bold">
         A sourdough microbakery serving Kansas City
       </h1>
-      <Link href="#" className="button success mt-2 mb-6">
-        Shop closed! Check back soon!
+      <Link
+        href="https://shop.castiron.me/luna-bakery"
+        className="button success mt-2 mb-6"
+      >
+        Order Now
       </Link>
       <div className="flex gap-3">
         <SocialIcon
