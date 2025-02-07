@@ -62,12 +62,12 @@ const Navbar = () => {
           ))}
         </div>
       </div>
-      <div className="bg-primary px-3 py-2 text-center">
+      {/* <div className="bg-primary px-3 py-2 text-center">
         <p>
           Orders are currently closed as we are on vacation at this
           time. We will re-open on February 6th, 2025!
         </p>
-      </div>
+      </div> */}
     </nav>
   );
 };
