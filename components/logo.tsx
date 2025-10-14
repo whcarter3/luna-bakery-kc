@@ -1,7 +1,5 @@
 import Image, { ImageProps } from 'next/image';
 import Link from 'next/link';
-
-//we use ImageProps from next/image to define the props for our logo
 interface LogoProps {
   href: string;
   img: ImageProps;
